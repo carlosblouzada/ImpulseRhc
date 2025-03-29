@@ -35,13 +35,21 @@ const HeroSection = () => {
             </button>
           </div>
           <div className="relative">
-            <div className="rounded-lg shadow-2xl bg-[#556B2F]/20 h-80 flex items-center justify-center">
-              <div className="text-3xl font-bold text-[#556B2F] p-8 text-center">
-                IMPULSE RH CONSULTORIA<br/>
-                <span className="text-xl font-normal mt-4 block">Transformando talentos em resultados</span>
-              </div>
-            </div>
-          </div>
+  <div className="rounded-lg shadow-2xl bg-[#556B2F]/20 h-80 flex items-center justify-center">
+    
+    <img 
+      src="/src/assets/logo.jpg" 
+      alt="Descrição da imagem" 
+      className="absolute inset-0 w-full h-full object-cover rounded-lg"
+    />
+    {/* <div className="text-3xl font-bold text-[#556B2F] p-8 text-center relative z-10">
+      IMPULSE RH CONSULTORIA<br/>
+      <span className="text-xl font-normal mt-4 block">Transformando talentos em resultados</span>
+    </div> */}
+  </div>
+</div>
+
+
         </div>
       </div>
     </section>
